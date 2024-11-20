@@ -128,7 +128,7 @@
   @media (max-width: 768px) {
     .container{
       flex-direction: column;
-      height:fit-content;
+      height: 100vh;
       padding: 50px 0px;
       border: 1px solid red;
       
