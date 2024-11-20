@@ -1,0 +1,140 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  /* Left Section */
+  .left-section {
+   
+    
+    flex: 1;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .left-section-inner{
+    width: 350px;
+    
+  }
+
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img{
+   width: 8rem;
+  }
+  
+  .uk {
+    color: #FC8A06;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .emoji {
+    margin-left: 10px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .input {
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+  }
+  
+  .link {
+    font-size: 14px;
+    color:#FC8A06;
+    text-decoration: none;
+  }
+  
+  .button {
+    height: 45px;
+    background-color: #FC8A06;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .sign-up-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center  ;
+  }
+  
+  .sign-up-link {
+    color: #ff6600;
+    text-decoration: none;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10PX;
+   
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .container{
+      flex-direction: column;
+      height:fit-content;
+      padding: 50px 0px;
+      border: 1px solid red;
+      
+    }
+
+    .right-section{
+      display: none;
+    }
+  }
