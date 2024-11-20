@@ -95,6 +95,7 @@
         color: #FC8A06;
         text-align: center;
         justify-content: center;
+        width: auto;
     }
 
     .highlight span{
