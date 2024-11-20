@@ -55,7 +55,7 @@ export default function Login() {
                 {/* Right Section */}
                 <div className="right-section">
                     <img
-                        src={Art}
+                        src="https://res.cloudinary.com/dtxch3puy/image/upload/v1732094575/Art_pskgli.png"
                         alt="Food"
                         className="image"
                     />
