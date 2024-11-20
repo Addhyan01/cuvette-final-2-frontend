@@ -1,12 +1,12 @@
 /* General container styles */
 .category-container {
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
   }
   
   .category-header {
-    text-align: center;
+    
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -39,14 +39,14 @@
   }
   
   .category-details {
-    padding: 0.5rem 1rem;
-    text-align: center;
+    padding: 0.1rem 01rem;
+    
   }
   
   .category-title {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: bold;
-    margin: 0.5rem 0;
+   ;
   }
   
   .category-restaurants {
@@ -64,6 +64,17 @@
   @media (max-width: 768px) {
     .category-grid {
       grid-template-columns: repeat(2, 1fr); /* Show 2 items in one row for mobile */
+    }
+
+    .category-details{
+      background-color: #03081F;
+    }
+    .category-title{
+      color: #FC8A06;
+    }
+    .category-restaurants{
+      color: #FFFFFF;
+      font-weight: 400;
     }
   }
   
